@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.text {
+  width: 200px;
+  height: 900px;
+  overflow: auto;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+button {
+  display: block;
+  margin: 10px 10px;
+  padding: 12px 18px;
+  background-color: #00ccff;;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #00ccff;;
+  border: 1px solid #00ccff;;
+}
